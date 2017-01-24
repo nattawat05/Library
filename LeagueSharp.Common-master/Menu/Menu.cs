@@ -128,7 +128,7 @@
              new MenuItem("Menu.Compact", "Compact Menu").SetValue(false));
 
             Root.AddItem(
-                new MenuItem("FontInfo", "Press F6 after your change").SetFontStyle(FontStyle.Bold, Color.Yellow));
+                new MenuItem("FontInfo", "Press F5 after your change").SetFontStyle(FontStyle.Bold, Color.Yellow));
 
             CommonMenu.Instance.AddSubMenu(Root);
         }
